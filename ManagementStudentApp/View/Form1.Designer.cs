@@ -38,6 +38,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.cbSort = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,11 +143,21 @@
             this.cbSort.Size = new System.Drawing.Size(123, 24);
             this.cbSort.TabIndex = 9;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(139, 409);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(50, 16);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "HELLO";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.cbSort);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnDelete);
@@ -178,5 +189,6 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSort;
         private System.Windows.Forms.ComboBox cbSort;
+        private System.Windows.Forms.Label label2;
     }
 }

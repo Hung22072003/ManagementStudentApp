@@ -47,5 +47,7 @@ namespace ManagementStudentApp.DAL
             cmd.ExecuteNonQuery();
             cnn.Close();
         }
+
+        
     }
 }
