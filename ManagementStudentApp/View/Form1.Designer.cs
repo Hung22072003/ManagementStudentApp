@@ -134,7 +134,9 @@
             "MSSV (min -> max)",
             "MSSV (max -> min)",
             "DTB (min -> max)",
-            "DTB (max -> min)"});
+            "DTB (max -> min)",
+            "Name (min -> max)",
+            "Name (max -> min)"});
             this.cbSort.Location = new System.Drawing.Point(600, 343);
             this.cbSort.Name = "cbSort";
             this.cbSort.Size = new System.Drawing.Size(123, 24);
