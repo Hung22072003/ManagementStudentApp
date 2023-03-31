@@ -70,6 +70,21 @@ namespace ManagementStudentApp
         { 
             ShowDRV(cbLopSH.Text, txbSearch.Text);
         }
-        
+
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+                List<string> li = new List<string>();
+
+                for (int i = 0; i < dataGridView1.RowCount; i++)
+                {
+                    if (dataGridView1.Rows[i].Cells["MSSV"].Value != null)
+                    {
+                        li.Add(dataGridView1.Rows[i].Cells["MSSV"].Value.ToString());
+                    }
+
+                }
+                QLSVBLL bll = new QLSVBLL();
+                dataGridView1.DataSource = bll.SortBy(li, cbSort.Text);
+        }
     }
 }

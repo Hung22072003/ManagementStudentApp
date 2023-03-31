@@ -125,6 +125,7 @@
             this.btnSort.TabIndex = 8;
             this.btnSort.Text = "SORT";
             this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // cbSort
             // 
