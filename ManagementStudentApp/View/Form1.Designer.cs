@@ -38,6 +38,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.cbSort = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,11 +143,21 @@
             this.cbSort.Size = new System.Drawing.Size(123, 24);
             this.cbSort.TabIndex = 9;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(63, 401);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Check";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cbSort);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnDelete);
@@ -178,5 +189,6 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSort;
         private System.Windows.Forms.ComboBox cbSort;
+        private System.Windows.Forms.Button button1;
     }
 }
