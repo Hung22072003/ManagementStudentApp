@@ -28,5 +28,10 @@ namespace ManagementStudentApp.DTO
         {
             return Convert.ToDouble(((Student)o1).MSSV) > Convert.ToDouble(((Student)o2).MSSV);
         }
+
+        public static bool CompareName(object o1, object o2)
+        {
+            return String.Compare(((Student)o1).Name, ((Student)o2).Name) > 0;
+        }
     }
 }
