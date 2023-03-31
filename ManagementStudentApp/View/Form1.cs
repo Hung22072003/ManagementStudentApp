@@ -86,5 +86,10 @@ namespace ManagementStudentApp
                 QLSVBLL bll = new QLSVBLL();
                 dataGridView1.DataSource = bll.SortBy(li, cbSort.Text);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
