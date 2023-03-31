@@ -38,6 +38,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.cbSort = new System.Windows.Forms.ComboBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,7 +120,7 @@
             // 
             // btnSort
             // 
-            this.btnSort.Location = new System.Drawing.Point(472, 336);
+            this.btnSort.Location = new System.Drawing.Point(474, 336);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(79, 37);
             this.btnSort.TabIndex = 8;
@@ -142,11 +143,22 @@
             this.cbSort.Size = new System.Drawing.Size(123, 24);
             this.cbSort.TabIndex = 9;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(63, 399);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(67, 20);
+            this.checkBox1.TabIndex = 10;
+            this.checkBox1.Text = "Check";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.cbSort);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnDelete);
@@ -178,5 +190,6 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSort;
         private System.Windows.Forms.ComboBox cbSort;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
