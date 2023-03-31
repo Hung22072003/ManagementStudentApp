@@ -89,7 +89,7 @@ namespace ManagementStudentApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello");
+            MessageBox.Show("ABC");
         }
     }
 }
